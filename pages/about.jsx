@@ -11,7 +11,7 @@ export default function Page() {
                 <meta name="description" content="A very simple message board." />
             </Head>
             <div className="header-container">
-                <Link href="/" title="Back to main page" className='image-button'><img src="https://img.icons8.com/?size=32&id=86960&format=png&color=FFFFFF" /></Link>
+                <Link href="/" title="Back to main page" className='image-button'><Image src="https://img.icons8.com/?size=32&id=86960&format=png&color=FFFFFF" /></Link>
             </div>
             <h1>About This Website</h1>
             <p>
@@ -27,7 +27,7 @@ export default function Page() {
                 Public deployments handled by <a href="https://vercel.com">Vercel</a>.<br />
                 Domain registration and main website hosting (littlebitstudios.com) handled by <a href="https://www.dreamhost.com">DreamHost</a>.<br /><br />
                 All icons used are from <a href="https://icons8.com">Icons8</a>.<br /><br />
-                Font used across this website is Inter by Rasmus Andersson.<br />Learn more or download from <a href="https://rsms.me/inter/">the author's website</a>.<br /><br />
+                Font used across this website is Inter by Rasmus Andersson.<br />Learn more or download from <a href="https://rsms.me/inter/">the author&apos;s website</a>.<br /><br />
                 The Nintendo Switch gaming system, Nintendo Accounts, and any other reference to Nintendo are the property of Nintendo Co. Ltd. and international subsidiaries.<br/>
                 Me, contributors to this project, and contributors to the referenced projects are not affiliated with Nintendo.<br />
             </p>
@@ -41,7 +41,7 @@ export default function Page() {
             <h2>Privacy Information</h2>
             <p>
                 This website uses no analytics or tracking.<br />
-                No data is stored on this website's server, and no browser persistence is used.<br />
+                No data is stored on this website&apos;s server, and no browser persistence is used.<br />
                 All data is handled locally, using files you give to the website.
             </p>
         </div>
