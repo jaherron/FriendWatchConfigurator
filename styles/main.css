@@ -1,0 +1,161 @@
+@import url("./fonts/Inter/inter.css");
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+button,
+input,
+textarea {
+    font-family: Inter, sans-serif;
+    margin: 5px;
+}
+
+input, textarea {
+    background-color: black !important;
+    color: white !important;
+}
+
+a {
+    color: inherit;
+}
+
+.button, button {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image-button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}   
+
+.destructive-button {
+    background-color: #dc3545;
+}
+
+.destructive-button:hover {
+    background-color: #c82333;
+}
+
+.grey-button, .grey-button:hover {
+    background-color: grey;
+    color: white;
+    cursor: not-allowed;
+}
+
+.button:hover, button:hover {
+    background-color: #0056b3;
+}
+
+.post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+.post strong {
+    font-size: 1.2em;
+}
+
+.post p {
+    margin: 5px 0;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.post-buttons {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    gap: 10px; /* Add some space between buttons */
+}
+
+.post-buttons img{
+    width: 24px;
+    height: 24px;
+}
+
+.post-buttons button, .post-buttons .button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.active-profile-container {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.active-profile-container img {
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.active-profile-container a {
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Align items vertically centered */
+    padding: 0 20px; /* Optional: Add some padding for better spacing */
+}
+
+.header-container h1 {
+    flex-grow: 1; /* Allow the h1 to grow and take available space */
+    text-align: center; /* Center the text inside the h1 */
+}
+
+.text-container {
+    margin-left: 10px
+}
+
+.hide-on-mobile {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+.about-page p{
+    text-align: center;
+}
+
+.about-page .header-container{
+    margin-top: 20px;
+}
+
+.about-page h1, .about-page h2{
+    text-align: center;
+}
